@@ -11,6 +11,6 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  const data = { message: "Hi Debayan" };
+  const data = { message: "Hi Lynx" };
   res.json(data);
 });
